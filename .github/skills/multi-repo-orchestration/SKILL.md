@@ -22,10 +22,12 @@ This skill requires the GitHub MCP Server configured on all repos in the ecosyst
 {
   "mcpServers": {
     "github": {
+      "type": "http",
       "url": "https://api.githubcopilot.com/mcp",
       "headers": {
         "X-MCP-Toolsets": "issues"
-      }
+      },
+      "tools": ["*"]
     }
   }
 }
