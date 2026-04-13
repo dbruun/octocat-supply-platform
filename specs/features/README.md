@@ -14,6 +14,15 @@ Shopping cart functionality spanning frontend and backend:
   - `cart-orchestration-plan.md` - Multi-repo coordination and integration flow
   - `cart-issue-templates.md` - Ready-to-use issue descriptions for dependent repos
 
+### Supplier Last Updated (`supplier-last-updated-*.md`)
+Adds a `last_updated` supplier timestamp surfaced in API and UI:
+- **Repositories:** octocat-supply-api, octocat-supply-web
+- **Status:** Specification complete, awaiting implementation
+- **Parent Issue:** dbruun/octocat-supply-platform#1
+- **Files:**
+  - `supplier-last-updated.md` - Technical scope for API migration/repository and frontend display
+  - `supplier-last-updated-issue-templates.md` - Ready-to-use issue descriptions for dependent repos
+
 ## How to Add a Feature Spec
 
 1. Create a new markdown file: `<feature-name>.md`
