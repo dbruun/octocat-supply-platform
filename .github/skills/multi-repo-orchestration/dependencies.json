@@ -1,14 +1,14 @@
 {
   "repositories": {
     "frontend": {
-      "owner": "your-org",
+      "owner": "dbruun",
       "repo": "octocat-supply-web",
       "scope": ["ui", "components", "pages", "frontend", "client", "web", "tailwind", "react", "routing"],
       "stack": "React 18+ / Vite / Tailwind CSS / React Router v7 / React Query",
       "integrationOrder": 2
     },
     "backend": {
-      "owner": "your-org",
+      "owner": "dbruun",
       "repo": "octocat-supply-api",
       "scope": ["api", "endpoints", "database", "backend", "server", "service", "migration", "repository", "swagger", "types", "models"],
       "stack": "Express.js / SQLite / Repository pattern / Swagger-OpenAPI",
