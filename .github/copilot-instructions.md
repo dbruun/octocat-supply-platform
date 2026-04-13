@@ -33,7 +33,7 @@ This repo contains three orchestration skills in `.github/skills/`:
 ## Workflow
 
 1. Create a feature issue in this repo and assign to `@copilot`.
-2. Copilot reads the dependency map and spawns issues in `octocat-supply-api` and/or `octocat-supply-web`.
+2. When assigned a feature issue, Copilot MUST read and follow .github/skills/multi-repo-orchestration/SKILL.md step by step. Use the GitHub MCP Server tools (create_issue, add_issue_comment, assign_copilot_to_issue) to create child issues in dependent repos. Do NOT implement changes locally — this repo contains no application code
 3. Agents in each repo implement changes and report back via the `report-to-master` skill.
 4. This repo's `cross-repo-pr-linking` skill maintains a live status table on the master issue.
 
