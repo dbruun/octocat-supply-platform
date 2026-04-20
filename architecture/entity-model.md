@@ -25,6 +25,7 @@ This document describes the domain entities used throughout the OctoCAT Supply C
 | phone | string | | Contact phone |
 | active | boolean | | Whether active |
 | verified | boolean | | Whether verified |
+| lastUpdated | string | | ISO 8601 timestamp of last supplier update |
 
 ### Product
 | Field | Type | Required | Description |
